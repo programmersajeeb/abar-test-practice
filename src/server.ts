@@ -1,9 +1,8 @@
 import mongoose from "mongoose";
 import app from "./app";
-import config from "./config/index";
-// import config from "./config";
+import config from "./config";
 
-async function main() {
+async function bootstrap() {
   try {
     await mongoose.connect(config.database_url as string);
     console.log(`Database connected successfully`);
@@ -15,3 +14,5 @@ async function main() {
     console.log(`Failed to connect database`);
   }
 }
+
+bootstrap();
