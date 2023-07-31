@@ -1,0 +1,6 @@
+{
+  "editor.codeActiononSave": {
+    "source.fixAll.eslint": true,
+    "source.organizeImports": true
+  }
+}
