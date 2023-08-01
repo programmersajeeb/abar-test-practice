@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "G:\\Complete-web-development-4\\LEVEL-2\\Mission3\\abarTestPractice\\logs\\winston\\errors\\.6b18ad5a3c896709211ef00f56bc2b16712cf24b-audit.json",
+    "files": [
+        {
+            "date": 1690873067196,
+            "name": "G:\\Complete-web-development-4\\LEVEL-2\\Mission3\\abarTestPractice\\logs\\winston\\errors\\error-2023-08-01-12.log",
+            "hash": "602a481531d865ce901775fa51d988bd12b29581cc49ed496ae4e9068910c08b"
+        }
+    ],
+    "hashType": "sha256"
+}
