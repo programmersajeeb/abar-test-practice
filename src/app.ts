@@ -1,6 +1,7 @@
-import express, { Application, Request, Response } from 'express';
+import express, { Application } from 'express';
 import cors from 'cors';
-import router from './app/modules/users/user.route';
+import globalErrorHandlers from './app/middlewares/globalErrorHandlers';
+import { userRouter } from './app/modules/users/user.route';
 const app: Application = express();
 
 // middleware
@@ -11,10 +12,15 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // api routes
-app.use('/api/v1/users', router);
+app.use('/api/v1/users', userRouter);
 
-app.get('/', async (req: Request, res: Response) => {
-  res.send('Hello World!');
-});
+// tsting purpose
+// app.get('/', (req: Request, res: Response, next: NextFunction) => {
+//   throw new ApiError(400, 'error hoise thela shamlao');
+//   // next('error with next express');
+// });
+
+// global error handler
+app.use(globalErrorHandlers);
 
 export default app;
