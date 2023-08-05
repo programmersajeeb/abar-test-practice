@@ -1,75 +1,75 @@
 {
-    "keep": {
-        "days": true,
-        "amount": 14
+  "keep": {
+    "days": true,
+    "amount": 14
+  },
+  "auditLog": "G:\\Complete-web-development-4\\LEVEL-2\\Mission3\\abarTestPractice\\logs\\winston\\succeses\\.f5c356ac6b343df8b0225451399c87ee103a6c7e-audit.json",
+  "files": [
+    {
+      "date": 1690873067188,
+      "name": "G:\\Complete-web-development-4\\LEVEL-2\\Mission3\\abarTestPractice\\logs\\winston\\succeses\\success-08-01-12.08.log",
+      "hash": "e15bd9b57811dbc54388bf248a065366ccbb1b5363f35f65e1d4d59baa26abb1"
     },
-    "auditLog": "G:\\Complete-web-development-4\\LEVEL-2\\Mission3\\abarTestPractice\\logs\\winston\\succeses\\.f5c356ac6b343df8b0225451399c87ee103a6c7e-audit.json",
-    "files": [
-        {
-            "date": 1690873067188,
-            "name": "G:\\Complete-web-development-4\\LEVEL-2\\Mission3\\abarTestPractice\\logs\\winston\\succeses\\success-08-01-12.08.log",
-            "hash": "e15bd9b57811dbc54388bf248a065366ccbb1b5363f35f65e1d4d59baa26abb1"
-        },
-        {
-            "date": 1690877949678,
-            "name": "G:\\Complete-web-development-4\\LEVEL-2\\Mission3\\abarTestPractice\\logs\\winston\\succeses\\success-08-01-14.08.log",
-            "hash": "21b83a6eb21b9800e2d5ac947ce4b8faacb7e3d511979b2b3ca206cbcf899382"
-        },
-        {
-            "date": 1690885968336,
-            "name": "G:\\Complete-web-development-4\\LEVEL-2\\Mission3\\abarTestPractice\\logs\\winston\\succeses\\success-08-01-16.08.log",
-            "hash": "c66a9c2292ef1744c03005956633be9c131896b0139fe4a953dcc392ca335a12"
-        },
-        {
-            "date": 1690887614387,
-            "name": "G:\\Complete-web-development-4\\LEVEL-2\\Mission3\\abarTestPractice\\logs\\winston\\succeses\\success-08-01-17.08.log",
-            "hash": "ed343d850fdd2419b95e4339be6b41838b820508f83345b5dca0a9a0a01112c6"
-        },
-        {
-            "date": 1690955659820,
-            "name": "G:\\Complete-web-development-4\\LEVEL-2\\Mission3\\abarTestPractice\\logs\\winston\\succeses\\success-08-02-11.08.log",
-            "hash": "01dfd9e87e8265bb44142a05a6f500c657525e1fb9fc3931951e6b2e938d49fe"
-        },
-        {
-            "date": 1690956248939,
-            "name": "G:\\Complete-web-development-4\\LEVEL-2\\Mission3\\abarTestPractice\\logs\\winston\\succeses\\success-08-02-12.08.log",
-            "hash": "1baefcfe053bd8c7afb3d793a2a5f44517938626fb309327e0bc9e7a190580d4"
-        },
-        {
-            "date": 1691043172567,
-            "name": "G:\\Complete-web-development-4\\LEVEL-2\\Mission3\\abarTestPractice\\logs\\winston\\succeses\\success-08-03-12.08.log",
-            "hash": "eff08af264b85f8d31bcf1e96c21cdf590570b85e231b0d7d489ade6392dfc52"
-        },
-        {
-            "date": 1691130823687,
-            "name": "G:\\Complete-web-development-4\\LEVEL-2\\Mission3\\abarTestPractice\\logs\\winston\\succeses\\success-08-04-12.08.log",
-            "hash": "e6e98863675387ef6e12b3d95d2561d0ee14a28f804b78405adc5fb1beed9df4"
-        },
-        {
-            "date": 1691137803732,
-            "name": "G:\\Complete-web-development-4\\LEVEL-2\\Mission3\\abarTestPractice\\logs\\winston\\succeses\\success-08-04-14.08.log",
-            "hash": "0386b622e19da99a157b352671e0ddf9218dedf7275e424b479d1bc4913430b0"
-        },
-        {
-            "date": 1691206781481,
-            "name": "G:\\Complete-web-development-4\\LEVEL-2\\Mission3\\abarTestPractice\\logs\\winston\\succeses\\success-08-05-09.08.log",
-            "hash": "9d439a0936d593f6e0fbde712036abc359112cea6d6762e29d0da694e3458724"
-        },
-        {
-            "date": 1691208267569,
-            "name": "G:\\Complete-web-development-4\\LEVEL-2\\Mission3\\abarTestPractice\\logs\\winston\\succeses\\success-08-05-10.08.log",
-            "hash": "09b0f1938b7f5e01c53ce586b5d1dbc7441249c69ced0b88b7c83fccece69279"
-        },
-        {
-            "date": 1691211970138,
-            "name": "G:\\Complete-web-development-4\\LEVEL-2\\Mission3\\abarTestPractice\\logs\\winston\\succeses\\success-08-05-11.08.log",
-            "hash": "e89751f6acce6b420317458e16f3c807df7dbaba2d3e177a34b19bd4e0651c86"
-        },
-        {
-            "date": 1691215445383,
-            "name": "G:\\Complete-web-development-4\\LEVEL-2\\Mission3\\abarTestPractice\\logs\\winston\\succeses\\success-08-05-12.08.log",
-            "hash": "9dc60c27d36da535f752f7b568457875074e8eecabd47a59bd23949911250a93"
-        }
-    ],
-    "hashType": "sha256"
+    {
+      "date": 1690877949678,
+      "name": "G:\\Complete-web-development-4\\LEVEL-2\\Mission3\\abarTestPractice\\logs\\winston\\succeses\\success-08-01-14.08.log",
+      "hash": "21b83a6eb21b9800e2d5ac947ce4b8faacb7e3d511979b2b3ca206cbcf899382"
+    },
+    {
+      "date": 1690885968336,
+      "name": "G:\\Complete-web-development-4\\LEVEL-2\\Mission3\\abarTestPractice\\logs\\winston\\succeses\\success-08-01-16.08.log",
+      "hash": "c66a9c2292ef1744c03005956633be9c131896b0139fe4a953dcc392ca335a12"
+    },
+    {
+      "date": 1690887614387,
+      "name": "G:\\Complete-web-development-4\\LEVEL-2\\Mission3\\abarTestPractice\\logs\\winston\\succeses\\success-08-01-17.08.log",
+      "hash": "ed343d850fdd2419b95e4339be6b41838b820508f83345b5dca0a9a0a01112c6"
+    },
+    {
+      "date": 1690955659820,
+      "name": "G:\\Complete-web-development-4\\LEVEL-2\\Mission3\\abarTestPractice\\logs\\winston\\succeses\\success-08-02-11.08.log",
+      "hash": "01dfd9e87e8265bb44142a05a6f500c657525e1fb9fc3931951e6b2e938d49fe"
+    },
+    {
+      "date": 1690956248939,
+      "name": "G:\\Complete-web-development-4\\LEVEL-2\\Mission3\\abarTestPractice\\logs\\winston\\succeses\\success-08-02-12.08.log",
+      "hash": "1baefcfe053bd8c7afb3d793a2a5f44517938626fb309327e0bc9e7a190580d4"
+    },
+    {
+      "date": 1691043172567,
+      "name": "G:\\Complete-web-development-4\\LEVEL-2\\Mission3\\abarTestPractice\\logs\\winston\\succeses\\success-08-03-12.08.log",
+      "hash": "eff08af264b85f8d31bcf1e96c21cdf590570b85e231b0d7d489ade6392dfc52"
+    },
+    {
+      "date": 1691130823687,
+      "name": "G:\\Complete-web-development-4\\LEVEL-2\\Mission3\\abarTestPractice\\logs\\winston\\succeses\\success-08-04-12.08.log",
+      "hash": "e6e98863675387ef6e12b3d95d2561d0ee14a28f804b78405adc5fb1beed9df4"
+    },
+    {
+      "date": 1691137803732,
+      "name": "G:\\Complete-web-development-4\\LEVEL-2\\Mission3\\abarTestPractice\\logs\\winston\\succeses\\success-08-04-14.08.log",
+      "hash": "0386b622e19da99a157b352671e0ddf9218dedf7275e424b479d1bc4913430b0"
+    },
+    {
+      "date": 1691206781481,
+      "name": "G:\\Complete-web-development-4\\LEVEL-2\\Mission3\\abarTestPractice\\logs\\winston\\succeses\\success-08-05-09.08.log",
+      "hash": "9d439a0936d593f6e0fbde712036abc359112cea6d6762e29d0da694e3458724"
+    },
+    {
+      "date": 1691208267569,
+      "name": "G:\\Complete-web-development-4\\LEVEL-2\\Mission3\\abarTestPractice\\logs\\winston\\succeses\\success-08-05-10.08.log",
+      "hash": "09b0f1938b7f5e01c53ce586b5d1dbc7441249c69ced0b88b7c83fccece69279"
+    },
+    {
+      "date": 1691211970138,
+      "name": "G:\\Complete-web-development-4\\LEVEL-2\\Mission3\\abarTestPractice\\logs\\winston\\succeses\\success-08-05-11.08.log",
+      "hash": "e89751f6acce6b420317458e16f3c807df7dbaba2d3e177a34b19bd4e0651c86"
+    },
+    {
+      "date": 1691215445383,
+      "name": "G:\\Complete-web-development-4\\LEVEL-2\\Mission3\\abarTestPractice\\logs\\winston\\succeses\\success-08-05-12.08.log",
+      "hash": "9dc60c27d36da535f752f7b568457875074e8eecabd47a59bd23949911250a93"
+    }
+  ],
+  "hashType": "sha256"
 }
