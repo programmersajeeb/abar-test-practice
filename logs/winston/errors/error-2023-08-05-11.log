@@ -1,0 +1,22 @@
+{
+  level: 'error',
+  message: "Global error handler Cannot read properties of undefined (reading 'reject')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'reject')\n" +
+    '    at G:\\Complete-web-development-4\\LEVEL-2\\Mission3\\abarTestPractice\\src\\app.ts:21:11\n' +
+    '    at Layer.handle [as handle_request] (G:\\Complete-web-development-4\\LEVEL-2\\Mission3\\abarTestPractice\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (G:\\Complete-web-development-4\\LEVEL-2\\Mission3\\abarTestPractice\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (G:\\Complete-web-development-4\\LEVEL-2\\Mission3\\abarTestPractice\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (G:\\Complete-web-development-4\\LEVEL-2\\Mission3\\abarTestPractice\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at G:\\Complete-web-development-4\\LEVEL-2\\Mission3\\abarTestPractice\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (G:\\Complete-web-development-4\\LEVEL-2\\Mission3\\abarTestPractice\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (G:\\Complete-web-development-4\\LEVEL-2\\Mission3\\abarTestPractice\\node_modules\\express\\lib\\router\\index.js:280:10)\n' +
+    '    at urlencodedParser (G:\\Complete-web-development-4\\LEVEL-2\\Mission3\\abarTestPractice\\node_modules\\body-parser\\lib\\types\\urlencoded.js:91:7)\n' +
+    '    at Layer.handle [as handle_request] (G:\\Complete-web-development-4\\LEVEL-2\\Mission3\\abarTestPractice\\node_modules\\express\\lib\\router\\layer.js:95:5)',
+  label: 'right meow!',
+  timestamp: '2023-08-05T05:06:59.525Z'
+}
+{
+  level: 'error',
+  label: 'right meow!',
+  timestamp: '2023-08-05T05:34:53.064Z'
+}

@@ -15,9 +15,8 @@ app.use(express.urlencoded({ extended: true }));
 app.use('/api/v1/users', userRouter);
 
 // tsting purpose
-// app.get('/', (req: Request, res: Response, next: NextFunction) => {
-//   throw new ApiError(400, 'error hoise thela shamlao');
-//   // next('error with next express');
+// app.get('/', async (req: Request, res: Response, next: NextFunction) => {
+
 // });
 
 // global error handler
