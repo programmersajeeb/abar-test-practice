@@ -1,7 +1,7 @@
 import express, { Application } from 'express';
 import cors from 'cors';
 import globalErrorHandlers from './app/middlewares/globalErrorHandlers';
-import { userRouter } from './app/modules/users/user.route';
+import { userRouter } from './app/modules/user/user.route';
 const app: Application = express();
 
 // middleware

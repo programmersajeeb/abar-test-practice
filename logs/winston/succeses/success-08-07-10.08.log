@@ -1,0 +1,36 @@
+{
+  message: 'Database connected successfully',
+  level: 'info',
+  label: 'right meow!',
+  timestamp: '2023-08-07T04:06:48.907Z'
+}
+{
+  message: 'Example app listening on port 8080',
+  level: 'info',
+  label: 'right meow!',
+  timestamp: '2023-08-07T04:06:48.924Z'
+}
+{
+  message: 'Database connected successfully',
+  level: 'info',
+  label: 'right meow!',
+  timestamp: '2023-08-07T04:07:17.142Z'
+}
+{
+  message: 'Example app listening on port 8080',
+  level: 'info',
+  label: 'right meow!',
+  timestamp: '2023-08-07T04:07:17.164Z'
+}
+{
+  message: 'Database connected successfully',
+  level: 'info',
+  label: 'right meow!',
+  timestamp: '2023-08-07T04:08:08.680Z'
+}
+{
+  message: 'Example app listening on port 8080',
+  level: 'info',
+  label: 'right meow!',
+  timestamp: '2023-08-07T04:08:08.692Z'
+}
