@@ -2,11 +2,11 @@
   message: 'Database connected successfully',
   level: 'info',
   label: 'right meow!',
-  timestamp: '2023-08-02T05:54:21.125Z'
+  timestamp: '2023-08-12T08:21:31.193Z'
 }
 {
   message: 'Example app listening on port 8080',
   level: 'info',
   label: 'right meow!',
-  timestamp: '2023-08-02T05:54:21.145Z'
+  timestamp: '2023-08-12T08:21:31.224Z'
 }
