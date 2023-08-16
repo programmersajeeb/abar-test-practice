@@ -22,3 +22,27 @@
   label: 'right meow!',
   timestamp: '2023-08-16T10:26:24.405Z'
 }
+{
+  message: 'Database connected successfully',
+  level: 'info',
+  label: 'right meow!',
+  timestamp: '2023-08-16T10:28:02.308Z'
+}
+{
+  message: 'Example app listening on port 8080',
+  level: 'info',
+  label: 'right meow!',
+  timestamp: '2023-08-16T10:28:02.331Z'
+}
+{
+  message: 'Database connected successfully',
+  level: 'info',
+  label: 'right meow!',
+  timestamp: '2023-08-16T10:30:03.610Z'
+}
+{
+  message: 'Example app listening on port 8080',
+  level: 'info',
+  label: 'right meow!',
+  timestamp: '2023-08-16T10:30:03.627Z'
+}
