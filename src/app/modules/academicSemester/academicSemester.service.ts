@@ -1,7 +1,13 @@
 import httpStatus from 'http-status';
 import ApiError from '../../../errors/ApiErrors';
-import { academicSemesterCodeMapper } from './academicSemester.constant';
-import { IacademicSemester } from './academicSemester.interface';
+import {
+  academicSemesterCodeMapper,
+  semesterSearchableField,
+} from './academicSemester.constant';
+import {
+  IAcademicSemesterFilters,
+  IacademicSemester,
+} from './academicSemester.interface';
 import { AcademicSemester } from './academicSemester.model';
 import { IPaginationOptions } from '../../../interfaces/pagination';
 import { IGenericResponse } from '../../../interfaces/common';
@@ -20,7 +26,55 @@ const createService = async (
 
 const getallSemesters = async (
   paginationOptions: IPaginationOptions,
+  filters: IAcademicSemesterFilters,
 ): Promise<IGenericResponse<IacademicSemester[]>> => {
+  const { searchTerm, ...filtersData } = filters;
+  const andCondition = [];
+
+  // search by searchTerm
+  if (searchTerm) {
+    andCondition.push({
+      $or: semesterSearchableField.map(field => ({
+        [field]: {
+          $regex: searchTerm,
+          $options: 'i',
+        },
+      })),
+    });
+  }
+
+  // search by filter
+  if (Object.keys(filtersData).length) {
+    andCondition.push({
+      $and: Object.entries(filtersData).map(([fields, value]) => ({
+        [fields]: value,
+      })),
+    });
+  }
+
+  // const andCondition = [
+  //   {
+  //     $or:[
+  //       {
+  //         title: {
+  //           $regex: searchTearm,
+  //           $options: 'i'
+  //         }
+  //       }, {
+  //         code: {
+  //           $regex: searchTearm,
+  //           $options: 'i'
+  //         }
+  //       }, {
+  //         year: {
+  //           $regex: searchTearm,
+  //           $options: 'i'
+  //         }
+  //       }
+  //     ]
+  //   }
+  // ]
+
   const { page, limit, skip, sortBy, sortOrder } =
     paginationHelper.calculatePagination(paginationOptions);
 
@@ -30,7 +84,7 @@ const getallSemesters = async (
     sortCondition[sortBy] = sortOrder;
   }
 
-  const result = await AcademicSemester.find()
+  const result = await AcademicSemester.find({ $and: andCondition })
     .sort(sortCondition)
     .skip(skip)
     .limit(limit);
